@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+.container{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Myimage{
+    /* border-bottom: 3px solid; */
+    box-shadow: 5px 15px 15px gray;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.card img{
+    border-radius: 10%;
+    
+}
+.myName{
+    /* border: 3px solid; */
+    width: 50%;
+    letter-spacing: 4px;
+
+    text-align: center;
+    font-size: 4rem;
+}
+.web{
+    font-size: 2rem;
+}
+.hello{
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.about{
+    /* margin: 20px 0px; */
+    font-size: 2.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+.myskill{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px ;
+    text-decoration: underline;
+}
+.hero{
+    background-color: rgb(219, 255, 243);
+}
+span{
+    color: red;
+}
+
+.hero_sub{
+    width: 70%;
+    margin: auto;
+    /* border: 3px solid; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card{
+    /* width: 50%; */
+    margin: auto;
+    /* height: 50vh; */
+    
+}
+.card2{
+    line-height: 3rem;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+button{
+    /* padding: 5px 40px ; */
+    width: 20%;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5%;
+
+}
+.card1{
+    /* border: 2px solid black; */
+    width: 60%;
+    margin-top: 10px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+
+    width: 100%;
+    height: 100%;
+/* object-fit: cover;     */
+}
+
+/* Table */
+table{
+    width: 70%;
+    margin: 10px auto;
+    border: none;
+
+}
+th{
+    /* width: 100%; */
+    text-align: right;
+    /* padding: 20px; */
+    border: none;
+    font-size: 1.2rem;
+    color: red;
+    margin-left: 10px;
+}
+tr{
+    width: 100%;
+    border: none;
+    text-align: left;
+    
+}   
+td {
+    /* padding: 30px; */
+    margin-right: 10px;
+    text-align: left;
+    font-size: 1.3rem;
+    border: none;
+    padding: 20px;
+    /* margin-left: 30px; */
+    padding-bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 1rem;
+}
+.contact{
+    width: 60%;
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    box-shadow: 5px 2px 2px 6px gray;
+}
+
+form{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+label{
+
+    font-size: 1.2rem;
+    /* display: block; */
+    /* width: 30%; */
+    text-align: end;
+
+}
+input{
+    width: 50%;
+    /* padding: 9px 20px ; */
+    /* padding: 2rem 5px; */
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+footer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 60, 60);
+}
+div{
+    margin:10px;
+    
+    
+}
